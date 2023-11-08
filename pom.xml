@@ -65,7 +65,7 @@
         <module>hbase11xsqlreader</module>
         <module>hbase20xsqlreader</module>
 
-        <module>ossreader</module>
+        <!-- <module>ossreader</module> -->
         <module>hdfsreader</module>
         <module>ftpreader</module>
         <module>txtfilereader</module>
@@ -98,7 +98,7 @@
 
 
         <module>odpswriter</module>
-        <module>osswriter</module>
+        <!-- <module>osswriter</module> -->
         <module>otswriter</module>
         <module>hbase11xwriter</module>
         <module>hbase094xwriter</module>
