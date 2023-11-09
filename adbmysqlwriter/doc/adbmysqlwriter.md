@@ -105,7 +105,7 @@ AdbMysqlWriter 通过 DataX 框架获取 Reader 生成的协议数据，AdbMysql
 
 * **jdbcUrl**
 
-    * 描述：目的数据库的 JDBC 连接信息。作业运行时，DataX 会在你提供的 jdbcUrl 后面追加如下属性：yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true
+    * 描述：目的数据库的 JDBC 连接信息。作业运行时，DataX 会在你提供的 jdbcUrl 后面追加如下属性：yearIsDateType=false&zeroDateTimeBehavior=CONVERT_TO_NULL&rewriteBatchedStatements=true
 
                注意：1、在一个数据库上只能配置一个 jdbcUrl
                     2、一个 AdbMySQL 写入任务仅能配置一个 jdbcUrl
